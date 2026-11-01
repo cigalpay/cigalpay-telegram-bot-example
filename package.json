@@ -1,0 +1,20 @@
+{
+  "name": "cigalpay-telegram-bot-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Telegram shop bot that takes crypto payments with CigalPay: delivery address, checkout, paid orders sent to the merchant.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cigalpay-js-sdk": "^2.1.0",
+    "grammy": "^1.46.0"
+  }
+}
